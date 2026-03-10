@@ -1,0 +1,1 @@
+print("Esse exercicio estava vazio")
