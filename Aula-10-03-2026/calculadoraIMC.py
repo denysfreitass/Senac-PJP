@@ -37,10 +37,3 @@ elif imc > 25 and imc < 30:
     print("cuidado, você está com sobrepeso!")
 else:
     print("Cuidado, você está com obesidade!") 
-
-
-
-#exercicios da aula 10-03-2026
-#listas, tuplas e dicionários
-
-#listas
