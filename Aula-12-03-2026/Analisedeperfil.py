@@ -18,7 +18,7 @@ op_5 = int(input("Você gosta de resolver problemas lógicos? ")) #sugestiva a A
 
 #analise das respostas
 
-if op_2 and op_3 and op_5 == 1:
+if op_2 == 1 and op_3 == 1 and op_5 == 1:
     print(f"Olá, {nome}, com base nas suas respostas, sugerimos que você considere o curso de Análise e desenvolvimento de sistemas, pois você tende a gosta de tecnologia e prefere trabalhar com computadores. além de gostar de resolver problemas lógicos")
-elif op_1 and op_4 ==1 and not op_3 == 1:
+elif op_1 == 1 and op_4 ==1 and op_3 == 2:
     print(f"Olá, {nome}, com base nas suas respostas, sugerimos que você considere o curso de Direito, pois você gosta de discutir problemas complexos e defender suas opiniões, além de ter interesse em saber mais sobre leis e direitos.")
