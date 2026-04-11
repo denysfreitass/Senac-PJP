@@ -132,4 +132,10 @@ INSERINDO VALORES
 exemplo
 
 INSERT INTO curso (nome,qtde_vaga,status) VALUES ('Curso Python', 20,'ativo')
+
+--------------curso----------------
+|Curso Python | 20       | ativo   |
+|_____________|__________|_________|
+
+
 '''
