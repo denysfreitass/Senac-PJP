@@ -27,7 +27,7 @@ def cadastrar_produtos():
             except ValueError:
                 print("ID deve ser do tipo inteiro, Ex: 1, 2, 3..")
                 continue
-            break  # ID válido, sai do loop interno
+            break  # ID válido, sai do loop
 
         # cadastro do produto
         nome_produto = input("Digite o nome do produto: ").strip().lower()
@@ -60,7 +60,7 @@ def cadastrar_produtos():
         # pergunta se deseja continuar
         continuar = input("Deseja cadastrar outro produto? (sim/não): ").strip().lower()
         if continuar not in ['sim', 's', 'yes', 'y']:
-            break  # sai do loop principal e encerra a função
+            break  
 
 def mostrar_catalogo():
     if not catalogo:
